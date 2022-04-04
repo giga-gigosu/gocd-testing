@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Let us pretend that this is building something ... and takes 5 seconds"
-
 max=5
+echo "Let us pretend that this is building something ... and takes $max seconds"
+
 count=0
 while [ "$count" -lt $max ]; do
     count=$((count + 1))
